@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework_Javasript_1</title>
-    <script src="./src/index.js"></script>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Homework_Javasript</title>
+    
 </head>
 <body>
+    <ol id="list"></ol>
+    <button id="myBtn">Открыть</button>
 
+    <div id="myModal" class="modal">
+       <div class="modal-content">
+          <div class="modal-window">
+          <span class="close">&times;</span>
+          <h2>Бла-бла-бла</h2>
+          </div>
+        </div>
+    </div>
+    <p></p>
+    <div class="container">
+       <div class="round"></div>
+       <div class="round"></div>
+       <div class="round"></div>
+       <p></p>
+       <input type="button" value="Next" onclick="trafficLight()">
+    </div>
+    <script src="./src/index.js"></script>
 </body>
 
 </html>
