@@ -74,6 +74,7 @@ body {
       text-decoration: none;
       color: #fff; 
     }
+
     .links .links__li:hover .menu__p {
       opacity: .6; 
     }
@@ -208,7 +209,7 @@ h3{
   }
   
   
-/*what we Do*/
+/*what we Do section*/
 hr {
     border-left: 2px solid rgb(5, 5, 82); 
     margin-left: 45%; 
