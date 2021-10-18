@@ -5,29 +5,196 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css"/>
-    <title>Homework_Javasript</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./src/index.js"></script>
+
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/fontawesome.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/regular.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/brands.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/regular.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="./img/download.png" />
+    <title>Exam-2</title>
     
 </head>
 <body>
-    <ol id="list"></ol>
-    <button id="myBtn">Открыть</button>
-
-    <div id="myModal" class="modal">
-       <div class="modal-content">
-          <div class="modal-window">
-          <span class="close">&times;</span>
-          <h2>Бла-бла-бла</h2>
-          </div>
+    <header>
+        <div class="main-picture">
+            <div class="navigation">
+        
+                   <div class="logo">
+                    <img src="./img/monticello000.png" alt="logo">
+                    </div>
+                <div class="menu">
+                   <ul class="links">
+                    <li class="links__li">
+                      <a href="#">
+                        <div class="point"></div>
+                        <p class="menu__p">about us</p>
+                      </a>
+                    </li>
+                    <li class="links__li">
+                      <a href="#">
+                        <div class="point"></div>
+                        <p class="menu__p">projects</p>
+                      </a>
+                    </li>
+                    <li class="links__li">
+                      <a href="#">
+                        <div class="point"></div>
+                        <p class="menu__p">news</p>
+                      </a>
+                    </li>
+                    <li class="links__li">
+                      <a href="#">
+                        <div class="point"></div>
+                        <p class="menu__p">contact</p>
+                      </a>
+                    </li>
+                  </ul>
+                   
+            </div>
+                <div class="socials">
+                    <ul class="socials">
+                        <li class="social"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+        
+        
+            </div>
+    
+                    <div class="text-main">
+                        <div class="title">
+                            <h1>SIMPLE & MODERN</h1>
+                            <h3>WE MAKE THE WORLD'S BEAUTIFUL EVERY DAY</h3>
+                        </div>
+                    </div>
+                    <a href="#" class="social-link-1"><i class="bi bi-caret-down"></i></a>
         </div>
-    </div>
-    <p></p>
-    <div class="container">
-       <div class="round"></div>
-       <div class="round"></div>
-       <div class="round"></div>
-       <p></p>
-       <input type="button" value="Next" onclick="trafficLight()">
-    </div>
+    
+    </header>
+        <section>
+            <br><br>
+            <hr>
+            <div class="title-2">
+                <h2>WHAT WE DO</h2>
+            </div>
+            <div class="flex-container">
+                <div class="flex-card-1">
+                    <img class="img_box-1" src="img/monticello04.jpg" alt="trade">
+                </div>
+                    <div class="flex-card-2">
+                        <div class="title">
+                            <h4>ONE WORLD</h4>
+                            <h2>TRADE CENTER</h2>
+                        </div>
+                        Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.
+                        <br><br>
+                        <div><button type="submit" class="button">MORE DETAILS</button></div>
+                        <br><br>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>New York City, United States - 1776 feet
+                        </div>
+                   </div>
+            </div>
+        </section>
+        <main>
+        <section>
+            <div class="flex-container">
+                <div class="flex-card-3">
+                        <div class="title">
+                            <h4>INTERNATIONAL</h4>
+                            <h2>COMMERCE CENTRE</h2>
+                        </div>
+                        Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.
+                        <br><br>
+                        <div><button type="submit" class="button">MORE DETAILS</button></div>
+                        <br><br>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i> Hong Kong - 1588 Feet
+                        </div>
+                        </div>
+                        <div class="flex-card-4">
+                            <img class="img_box-2" src="img/monticello05.jpg" alt="trade">
+                        </div>
+            </div>
+        </section>
+        
+        <section>
+            <hr>
+            <div class="title-2">
+                <h2>GALLERY</h2>
+            </div>
+            <br><br>
+            <div class="parent">
+                <div class="div1"><img src="./img/monticello13.jpg" alt="building-1"></div>
+                <div class="div2"><img src="./img/monticello14.jpg" alt="building-1"></div>
+                <div class="div3"><img src="./img/monticello15.jpg" alt="building-1"></div>
+                <div class="div4"><img src="./img/monticello16.jpg" alt="building-1"></div>
+                <div class="div5"><img src="./img/monticello17.jpg" alt="building-1"></div>
+                </div>
+                <br><br><br>
+                <div><center><button type="submit" class="button">SEE MORE</button></center></div>
+        </section>
+        <section>
+            <br><br>
+            <div class="flex-container-10">
+            <div id="map"></div>
+ </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp121YH6NKDdYLuOf9oQ5hVBddeXrc3Hk&callback=initMap&v=weekly"
+      async
+    ></script>
+
+        </section>
+        
+    </main>
+
+    <footer style="background-image: url(img/monticello18.jpg)">
+        <div class="contactblock" id="contactblock">
+            <h2 class="titles">GET IN TOUCH</h2>
+          <div class="contactblock__gen">
+      
+              <div class="contactblock__gen--left">
+                    <p class="contact-text"><i class="fas fa-map-marker-alt cbf"></i>91 Nolan extensions suite 670 </p>
+                    <p class="contact-text"><i class="fas fa-phone-alt cbf"></i><a href="tel:+001 356-868-2454" class="contactlink">+001356-356-356-356</a>  </p>
+                    <p class="contact-text"><i class="fas fa-inbox cbf"></i>
+                    <a href="mailto:anna.join.kr@gmail.com" class="contactlink">gahuy93@gmail.com</a> </p>
+                    <p class="contact-text"><i class="fas far fa-clock cbf"></i> From 07:05 AM to 19:30 PM </p>
+              </div>
+              <div class="contactblock__gen--right"></div>
+                <form action="#" class="form" method="POST">
+                    <input class="form__input" type="text" name="name_surname" placeholder="Name"/>
+                    <input class="form__input" type="email" name="email"  placeholder="Email"/>
+                    <input class="topic__btn formbtn" type="submit" value="SUBMIT"/>
+                </form>
+      
+        </div>
+        </div>
+          <div class="end-container">
+            <div class="blockend1">
+              <div class="logo">
+                <a href="#" class="logo__link"><img src="img/monticello000.png" alt="logo"></a>
+            </div>
+            <div class="socials">
+              <ul class="socials">
+                  <li class="social"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="social"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+          </div>
+            </div>
+            <div class="blockend2">
+              <span class="blockend2__rights">Copyrights © 2017 Monticello Group</span>
+              <span class="blockend2__rights">Made with &#10084; by Hanna Komar</span>
+            </div>
+          </div>
+      </footer>
+      
     <script src="./src/index.js"></script>
 </body>
 
